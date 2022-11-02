@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="account.css" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    #container {
+      display: flex;
+    }
+
+    form {
+      width: 10%;
+    }
+  </style>
+
+  <body>
+    <div id="container">
+      <div id="reg_div">
+        <div class="icon_div">
+          <div class="g_logo_div">
+            <img src="g_logo.png" alt="" />
+          </div>
+          <h4>Sign in to continue to YouTube</h4>
+        </div>
+        <form id="reg_form">
+          <input type="text" id="name" placeholder="Name" />
+          <input type="text" id="email" placeholder="Email" />
+          <input type="text" id="username" placeholder="Username" />
+          <input type="text" id="password" placeholder="Password" />
+          <input type="text" id="mobile" placeholder="Mobile" />
+          <input type="text" id="description" placeholder="Description" />
+        </form>
+
+        <div class="btn_div">
+          <button id="to_login">Login</button>
+          <button onclick="Register()">Create Account</button>
+        </div>
+      </div>
+
+      <div id="login_div">
+        <div class="icon_div">
+          <div class="g_logo_div">
+            <img src="g_logo.png" alt="" />
+          </div>
+          <h4>Sign in to continue to YouTube</h4>
+        </div>
+        <form id="login_form">
+          <p>Email</p>
+          <input type="text" id="login_username" placeholder="Username" />
+          <p>Password</p>
+          <input type="text" id="login_password" placeholder="Password" />
+        </form>
+
+        <div class="btn_div">
+          <button id="to_reg">Create account</button>
+          <button onclick="Login()">Login</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="account.js"></script>

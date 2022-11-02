@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+img {
+  width: 50px;
+}
+
+#container {
+  /* border: 1px solid red; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.icon_div > .g_logo_div {
+  margin-bottom: 15px;
+}
+
+#reg_div {
+  display: none;
+  padding: 40px 30px;
+  background-color: #303030;
+  border-radius: 7px;
+  width: 400px;
+}
+
+#reg_form {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+#login_div {
+  /* display: none; */
+  /* border: 1px solid red; */
+  padding: 40px 30px;
+  background-color: #303030;
+  border-radius: 7px;
+  width: 400px;
+}
+
+#login_form {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid grey;
+  margin-bottom: 15px;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+#login_form > p {
+  margin-bottom: 5px;
+}
+
+.btn_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_div > button {
+  cursor: pointer;
+}
+
+.btn_div button:nth-child(2) {
+  padding: 10px 25px;
+  background-color: #1c72fa;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.btn_div button:nth-child(1) {
+  color: #1c72fa;
+  background-color: #303030;
+  border: none;
+}
